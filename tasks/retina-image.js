@@ -100,7 +100,7 @@ module.exports = function(grunt) {
 				var srcImageSize=img.size();
 
 				
-				async.eachSeries(options.sizes, function(size, callback) {
+				options.sizes.forEach(function(size){
 					var dstPath = dirName + "/",
 						prefix  = size.settings.prefix,
 						filename = baseName + "@" + size.settings.suffix + extName,
@@ -120,8 +120,7 @@ module.exports = function(grunt) {
 					
 					img.size(destImageSize.width,destImageSize.height).save(dstPath + filename);
 					grunt.log.writeln("generate image : " + dstPath + filename);
-					callback();
-
+					
 				});
 			}
 			
