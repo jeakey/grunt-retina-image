@@ -1,7 +1,7 @@
 {
   "name": "grunt-retina-image",
   "description": "Take the 2x images and generate retina and regular versions",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/jeakey/grunt-retina-resize",
   "author": {
     "name": "jeakey"
@@ -43,7 +43,7 @@
   "keywords": [
     "gruntplugin"
   ],
-  "_id": "grunt-retina-image@0.1.1",
+  "_id": "grunt-retina-image@0.1.2",
   "_npmVersion": "1.1.62",
   "_npmUser": {
     "name": "jeakey",

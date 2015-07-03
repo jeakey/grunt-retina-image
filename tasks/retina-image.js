@@ -119,7 +119,7 @@ module.exports = function(grunt) {
 					}
 					
 					img.size(destImageSize.width,destImageSize.height).save(dstPath + filename);
-					grunt.log.writeLn("generate image : " + dstPath + filename);
+					grunt.log.writeln("generate image : " + dstPath + filename);
 					callback();
 
 				});
