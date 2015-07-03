@@ -1,0 +1,113 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\jeakeyliang\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\jeakeyliang\\AppData\\Roaming\\npm-cache\\grunt-retina-image\\0.1.0\\package.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\jeakeyliang\AppData\Roaming\npm-cache\grunt-retina-image\0.1.0\package.tgz
+13 verbose folder .
+14 info prepublish grunt-retina-image@0.1.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\jeakeyliang\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 0304200e-t-retina-image-0-1-0-package-tgz tar://C:\Users\jeakeyliang\AppData\Roaming\npm-cache\grunt-retina-image\0.1.0\package.tgz
+18 verbose lock tar://C:\Users\jeakeyliang\AppData\Roaming\npm-cache\grunt-retina-image\0.1.0\package.tgz C:\Users\jeakeyliang\AppData\Roaming\npm-cache\0304200e-t-retina-image-0-1-0-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 0304200e-t-retina-image-0-1-0-package-tgz tar://C:\Users\jeakeyliang\AppData\Roaming\npm-cache\grunt-retina-image\0.1.0\package.tgz
+22 silly lockFile 0304200e-t-retina-image-0-1-0-package-tgz tar://C:\Users\jeakeyliang\AppData\Roaming\npm-cache\grunt-retina-image\0.1.0\package.tgz
+23 silly lockFile 77034524-grunt-retina-image-0-1-0-package C:\Users\jeakeyliang\AppData\Roaming\npm-cache\grunt-retina-image\0.1.0\package
+24 verbose lock C:\Users\jeakeyliang\AppData\Roaming\npm-cache\grunt-retina-image\0.1.0\package C:\Users\jeakeyliang\AppData\Roaming\npm-cache\77034524-grunt-retina-image-0-1-0-package.lock
+25 silly lockFile 77034524-grunt-retina-image-0-1-0-package C:\Users\jeakeyliang\AppData\Roaming\npm-cache\grunt-retina-image\0.1.0\package
+26 silly lockFile 77034524-grunt-retina-image-0-1-0-package C:\Users\jeakeyliang\AppData\Roaming\npm-cache\grunt-retina-image\0.1.0\package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'grunt-retina-image',
+29 silly publish   description: 'Take the 2x images and generate retina and regular versions',
+29 silly publish   version: '0.1.0',
+29 silly publish   homepage: 'https://github.com/jeakey/grunt-retina-resize',
+29 silly publish   author: { name: 'jeakey' },
+29 silly publish   repository:
+29 silly publish    { type: 'git',
+29 silly publish      url: 'https://github.com/jeakey/grunt-retina-resize.git' },
+29 silly publish   bugs: { url: 'https://github.com/jeakey/grunt-retina-resize/issues' },
+29 silly publish   licenses: [ { type: 'MIT' } ],
+29 silly publish   main: 'Gruntfile.js',
+29 silly publish   engines: { node: '>= 0.8.0' },
+29 silly publish   scripts: { test: 'grunt test' },
+29 silly publish   devDependencies:
+29 silly publish    { 'grunt-contrib-clean': '~0.4.0',
+29 silly publish      'grunt-contrib-jshint': '~0.6.0',
+29 silly publish      'grunt-contrib-nodeunit': '~0.2.0',
+29 silly publish      images: '^2.1.6' },
+29 silly publish   dependencies:
+29 silly publish    { grunt: '~0.4.1',
+29 silly publish      images: '*',
+29 silly publish      async: '~0.2.9',
+29 silly publish      lodash: '~2.2.1' },
+29 silly publish   peerDependencies: { grunt: '~0.4.1' },
+29 silly publish   keywords: [ 'gruntplugin' ],
+29 silly publish   _id: 'grunt-retina-image@0.1.0',
+29 silly publish   _npmVersion: '1.1.62',
+29 silly publish   _npmUser: { name: 'jeakey', email: 'jeakey@qq.com' },
+29 silly publish   maintainers: [ { name: 'joriami', email: 'jeakey@qq.com' } ],
+29 silly publish   directories: {},
+29 silly publish   gitHead: '7e597852c668fcf7974694832860af56ffa0f84d',
+29 silly publish   readme: '# grunt-retina-image v0.1.0\n\n> Take the 2x images and generate retina and regular versions\n\n## Getting Started\nThis plugin requires Grunt `~0.4.1`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-retina-image --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-retina-image\');\n```\n\n## The "retina_image" task\n\n### Overview\nIn your project\'s Gruntfile, add a section named `retina_image` to the data object passed into `grunt.initConfig()`.\n\n```js\ngrunt.initConfig({\n  retina_image: {\n    options: {\n      // Task-specific options go here.\n    },\n    files: {\n      // Target-specific file lists and/or options go here.\n    },\n  },\n})\n```\n\n### Options\n\n#### options.sizes\nType: `Object`\nDefault value: `\',  \'`\n\nAn object with in each key the target size of your images. This could either be a fixed value or percentage. Possible values: `50%`, `w100`, `h80`. When both a height and width is specified (`w50h80`) the image will be scaled to it\'s biggest possible size inside these values without stretching it.\n\nThe value of each item should be an object with a key suffix and/or prefix. "@" and The suffix will be appended to the filename before the extension. Example: `"50%": { suffix: \'1x\' }`. The prefix will be prepended to the filename. If this ends with a slash, a subfolder will be created for this file. Examples: `"75%": { prefix: \'1.5x\' }`, `"75%": { prefix: \'1.5x\' }`\n\n\n### Usage Examples\n\n#### Default Options\nIn this example, all the images with extension jpg, gif and png present in the folder and subfolder of test/default_options will be placed in three different sizes inside tmp/default_options. The same folder structure will be kept intact.\n\n```js\ngrunt.initConfig({\n  retinafy: {\n    options: {\n      sizes: {\n        \'50%\':  { suffix: \'1x\' },\n        \'75%\':  { suffix: \'1.5x\' },\n        \'100%\': { suffix: \'2x\' }\n      }\n    },\n    files: [{\n      expand: true,\n      cwd: \'test/default_options\',\n      src: [\'**/*.{jpg,gif,png}\'],\n      dest: \'tmp/default_options\'\n    }],\n  },\n})\n```\n\n#### Fixed width and/or height\nAll specified files will be resized to three images, one with a width of 50px and one with a height of 70px, the last one will have a maximum of 80px x 90px. That image will have the highest possible resolution within those numbers. The image won\'t be stretched.\n\n```js\ngrunt.initConfig({\n  retinafy: {\n    options: {\n      sizes: {\n        \'w50\':    { suffix: \'w50\' },\n        \'h70\':    { suffix: \'h70\' },\n        \'w80h90\': { suffix: \'w80h90\' }\n      }\n    },\n    files: [{\n      // File options go here\n    }],\n  },\n})\n```\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   _shasum: '92a536a85cc4c4022be8d24bad0cc171469afcfe',
+29 silly publish   _from: '.' }
+30 verbose url raw grunt-retina-image
+31 verbose url resolving [ 'http://npm.oa.com/', './grunt-retina-image' ]
+32 verbose url resolved http://npm.oa.com/grunt-retina-image
+33 info trying registry request attempt 1 at 21:54:48
+34 http PUT http://npm.oa.com/grunt-retina-image
+35 http 403 http://npm.oa.com/grunt-retina-image
+36 verbose headers { server: 'nginx/1.0.15',
+36 verbose headers   date: 'Fri, 03 Jul 2015 13:54:49 GMT',
+36 verbose headers   'content-type': 'application/json',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'content-length': '6441',
+36 verbose headers   'cache-control': 'must-revalidate' }
+37 error publish Failed PUT 403
+38 error Error: forbidden cannot modify pre-existing version: 0.1.0
+38 error old={"name":"grunt-retina-image","description":"Take the 2x images and generate retina and regular versions","version":"0.1.0","homepage":"https://github.com/jeakey/grunt-retina-resize","author":{"name":"jeakey"},"repository":{"type":"git","url":"https://github.com/jeakey/grunt-retina-resize.git"},"bugs":{"url":"https://github.com/jeakey/grunt-retina-resize/issues"},"licenses":[{"type":"MIT"}],"main":"Gruntfile.js","engines":{"node":">= 0.8.0"},"scripts":{"test":"grunt test"},"devDependencies":{"grunt-contrib-clean":"~0.4.0","grunt-contrib-jshint":"~0.6.0","grunt-contrib-nodeunit":"~0.2.0","images":"^2.1.6"},"dependencies":{"grunt":"~0.4.1","images":"*","async":"~0.2.9","lodash":"~2.2.1"},"peerDependencies":{"grunt":"~0.4.1"},"keywords":["gruntplugin"],"_id":"grunt-retina-image@0.1.0","_npmVersion":"1.4.14","_npmUser":{"name":"jeakey","email":"june_fh@qq.com"},"maintainers":[{"name":"jeakey","email":"june_fh@qq.com"}],"directories":{},"gitHead":"3d4761fd5c3a239f797fe514e433da4f5ed72bb1","_shasum":"f36302faa5f70043a3c275ffe9d8f40b5bb62357","_from":".","dist":{"shasum":"f36302faa5f70043a3c275ffe9d8f40b5bb62357","tarball":"http://npm.oa.com/grunt-retina-image/-/grunt-retina-image-0.1.0.tgz"}}
+38 error new={"name":"grunt-retina-image","description":"Take the 2x images and generate retina and regular versions","version":"0.1.0","homepage":"https://github.com/jeakey/grunt-retina-resize","author":{"name":"jeakey"},"repository":{"type":"git","url":"https://github.com/jeakey/grunt-retina-resize.git"},"bugs":{"url":"https://github.com/jeakey/grunt-retina-resize/issues"},"licenses":[{"type":"MIT"}],"main":"Gruntfile.js","engines":{"node":">= 0.8.0"},"scripts":{"test":"grunt test"},"devDependencies":{"grunt-contrib-clean":"~0.4.0","grunt-contrib-jshint":"~0.6.0","grunt-contrib-nodeunit":"~0.2.0","images":"^2.1.6"},"dependencies":{"grunt":"~0.4.1","images":"*","async":"~0.2.9","lodash":"~2.2.1"},"peerDependencies":{"grunt":"~0.4.1"},"keywords":["gruntplugin"],"_id":"grunt-retina-image@0.1.0","_npmVersion":"1.4.14","_npmUser":{"name":"jeakey","email":"june_fh@qq.com"},"maintainers":[{"name":"jeakey","email":"june_fh@qq.com"}],"directories":{},"gitHead":"7e597852c668fcf7974694832860af56ffa0f84d","readme":"# grunt-retina-image v0.1.0\u000a\u000a> Take the 2x images and generate retina and regular versions\u000a\u000a## Getting Started\u000aThis plugin requires Grunt `~0.4.1`\u000a\u000aIf you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:\u000a\u000a```shell\u000anpm install grunt-retina-image --save-dev\u000a```\u000a\u000aOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\u000a\u000a```js\u000agrunt.loadNpmTasks('grunt-retina-image');\u000a```\u000a\u000a## The \"retina_image\" task\u000a\u000a### Overview\u000aIn your project's Gruntfile, add a section named `retina_image` to the data object passed into `grunt.initConfig()`.\u000a\u000a```js\u000agrunt.initConfig({\u000a  retina_image: {\u000a    options: {\u000a      // Task-specific options go here.\u000a    },\u000a    files: {\u000a      // Target-specific file lists and/or options go here.\u000a    },\u000a  },\u000a})\u000a```\u000a\u000a### Options\u000a\u000a#### options.sizes\u000aType: `Object`\u000aDefault value: `',  '`\u000a\u000aAn object with in each key the target size of your images. This could either be a fixed value or percentage. Possible values: `50%`, `w100`, `h80`. When both a height and width is specified (`w50h80`) the image will be scaled to it's biggest possible size inside these values without stretching it.\u000a\u000aThe value of each item should be an object with a key suffix and/or prefix. \"@\" and The suffix will be appended to the filename before the extension. Example: `\"50%\": { suffix: '1x' }`. The prefix will be prepended to the filename. If this ends with a slash, a subfolder will be created for this file. Examples: `\"75%\": { prefix: '1.5x' }`, `\"75%\": { prefix: '1.5x' }`\u000a\u000a\u000a### Usage Examples\u000a\u000a#### Default Options\u000aIn this example, all the images with extension jpg, gif and png present in the folder and subfolder of test/default_options will be placed in three different sizes inside tmp/default_options. The same folder structure will be kept intact.\u000a\u000a```js\u000agrunt.initConfig({\u000a  retinafy: {\u000a    options: {\u000a      sizes: {\u000a        '50%':  { suffix: '1x' },\u000a        '75%':  { suffix: '1.5x' },\u000a        '100%': { suffix: '2x' }\u000a      }\u000a    },\u000a    files: [{\u000a      expand: true,\u000a      cwd: 'test/default_options',\u000a      src: ['**/*.{jpg,gif,png}'],\u000a      dest: 'tmp/default_options'\u000a    }],\u000a  },\u000a})\u000a```\u000a\u000a#### Fixed width and/or height\u000aAll specified files will be resized to three images, one with a width of 50px and one with a height of 70px, the last one will have a maximum of 80px x 90px. That image will have the highest possible resolution within those numbers. The image won't be stretched.\u000a\u000a```js\u000agrunt.initConfig({\u000a  retinafy: {\u000a    options: {\u000a      sizes: {\u000a        'w50':    { suffix: 'w50' },\u000a        'h70':    { suffix: 'h70' },\u000a        'w80h90': { suffix: 'w80h90' }\u000a      }\u000a    },\u000a    files: [{\u000a      // File options go here\u000a    }],\u000a  },\u000a})\u000a```\u000a","readmeFilename":"README.md","_shasum":"92a536a85cc4c4022be8d24bad0cc171469afcfe","_from":".","dist":{"shasum":"92a536a85cc4c4022be8d24bad0cc171469afcfe","tarball":"http://npm.oa.com/grunt-retina-image/-/grunt-retina-image-0.1.0.tgz"}}: grunt-retina-image
+38 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:274:14)
+38 error     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:212:65)
+38 error     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
+38 error     at Request.emit (events.js:98:17)
+38 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
+38 error     at Request.emit (events.js:117:20)
+38 error     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
+38 error     at IncomingMessage.emit (events.js:117:20)
+38 error     at _stream_readable.js:929:16
+38 error     at process._tickCallback (node.js:419:13)
+39 error If you need help, you may report this *entire* log,
+39 error including the npm and node versions, at:
+39 error     <http://github.com/npm/npm/issues>
+40 error System Windows_NT 6.1.7601
+41 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+42 error cwd G:\imgcache\github\grunt-retina-image
+43 error node -v v0.10.29
+44 error npm -v 1.4.14
+45 verbose exit [ 1, true ]
