@@ -1,0 +1,59 @@
+{
+  "name": "grunt-retina-image",
+  "description": "Take the 2x images and generate retina and regular versions",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jeakey/grunt-retina-resize",
+  "author": {
+    "name": "jeakey"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeakey/grunt-retina-resize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeakey/grunt-retina-resize/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "images": "^2.1.6"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "images": "*",
+    "async": "~0.2.9",
+    "lodash": "~2.2.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "_id": "grunt-retina-image@0.1.0",
+  "_npmVersion": "1.1.62",
+  "_npmUser": {
+    "name": "jeakey",
+    "email": "joriami@qq.com"
+  },
+  "maintainers": [
+    {
+      "name": "joriami",
+      "email": "joriami@qq.com"
+    }
+  ],
+  "directories": {}
+}
